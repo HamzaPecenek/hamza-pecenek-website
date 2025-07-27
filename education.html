@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Education - Ali Hamza Peçenek</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -12,7 +13,7 @@
       <div class="name">Ali Hamza Peçenek</div>
       <nav>
         <a href="index.html">Home</a>
-        <a href="education.html">Education</a>
+        <a href="education.html" class="active">Education</a>
         <a href="skills.html">Skills</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
@@ -24,12 +25,9 @@
   <main>
     <div class="container">
       <aside class="sidebar">
-        <img src="Assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
+        <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
         <h2>Ali Hamza Peçenek</h2>
-        <a href="assets/cv.pdf" download>📄 Download CV</a>
-        <!--<p><strong>Email:</strong><br>hamza.petschenek@gmail.com</p>
-        <p><strong>Phone:</strong><br>+90 551 177 6168</p>
-        <p><strong>Location:</strong><br>Istanbul, Turkey</p>-->
+        <a href="assets/cv.pdf" download class="download-btn">📄 Download CV</a>
         <div class="social-links">
           <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a>
           <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">LinkedIn</a>
@@ -38,9 +36,27 @@
 
       <section class="main-content">
         <h1>Education</h1>
-        <p><strong>Turkish-German University</strong><br>Bachelor of Science in Computer Science<br>GPA: 3.06 — Expected Graduation: 2027</p>
-        <br>
-        <p><strong>Tofaş Science High School</strong><br>Graduated in 2022 — GPA: 3.9</p>
+
+        <div class="edu-card">
+          <h2>🎓 Turkish-German University</h2>
+          <p class="project-date">Bachelor of Science in Computer Science</p>
+          <p class="edu-detail">GPA: 3.06 — Expected Graduation: 2027</p>
+          <ul>
+            <li>Relevant Courses: OOP, Operating Systems, DB Systems, Stats, Linear Algebra</li>
+            <li>Currently exploring Quantum Computing, AI, and Data Engineering</li>
+          </ul>
+        </div>
+
+        <div class="edu-card">
+          <h2>🏫 Tofaş Science High School</h2>
+          <p class="project-date">Graduated: 2022</p>
+          <p class="edu-detail">GPA: 3.9</p>
+          <ul>
+            <li>Built a line-following robot using Arduino Uno</li>
+            <li>Active in STEM clubs and competitions</li>
+          </ul>
+        </div>
+
       </section>
     </div>
   </main>
