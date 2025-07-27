@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Skills - Ali Hamza Peçenek</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -13,7 +14,7 @@
       <nav>
         <a href="index.html">Home</a>
         <a href="education.html">Education</a>
-        <a href="skills.html">Skills</a>
+        <a href="skills.html" class="active">Skills</a>
         <a href="projects.html">Projects</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -24,12 +25,9 @@
   <main>
     <div class="container">
       <aside class="sidebar">
-        <img src="profile.jpg" alt="Profile Photo" class="profile-pic" />
+        <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
         <h2>Ali Hamza Peçenek</h2>
-        <a href="assets/cv.pdf" download>📄 Download CV</a>
-        <!--<p><strong>Email:</strong><br>hamza.petschenek@gmail.com</p>
-        <p><strong>Phone:</strong><br>+90 551 177 6168</p>
-        <p><strong>Location:</strong><br>Istanbul, Turkey</p>-->
+        <a href="assets/cv.pdf" download class="download-btn">📄 Download CV</a>
         <div class="social-links">
           <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a>
           <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">LinkedIn</a>
@@ -38,11 +36,42 @@
 
       <section class="main-content">
         <h1>Skills</h1>
-        <p><strong>Programming Languages:</strong> Python, Java, JavaScript, C, SQL</p>
-        <p><strong>Web Development:</strong> HTML, CSS, React, Django</p>
-        <p><strong>Tools & Frameworks:</strong> Git, TensorFlow, scikit-learn, pandas, NumPy, matplotlib</p>
-        <p><strong>Concepts:</strong> Machine Learning, AI fundamentals, Database Systems, Quantum Computing (studying)</p>
-        <p><strong>Soft Skills:</strong> Problem-solving, self-motivation, adaptability, fast-learning</p>
+
+        <div class="skill-block">
+          <h2>Programming Languages</h2>
+          <div class="skill-tags">
+            <span>Python</span><span>Java</span><span>JavaScript</span><span>C</span><span>SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h2>Web Development</h2>
+          <div class="skill-tags">
+            <span>HTML</span><span>CSS</span><span>React</span><span>Django</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h2>Tools & Frameworks</h2>
+          <div class="skill-tags">
+            <span>Git</span><span>TensorFlow</span><span>scikit-learn</span><span>pandas</span><span>NumPy</span><span>matplotlib</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h2>Concepts</h2>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>AI Fundamentals</span><span>Database Systems</span><span>Quantum Computing (studying)</span>
+          </div>
+        </div>
+
+        <div class="skill-block">
+          <h2>Soft Skills</h2>
+          <div class="skill-tags">
+            <span>Problem-solving</span><span>Self-motivation</span><span>Adaptability</span><span>Fast-learning</span>
+          </div>
+        </div>
+
       </section>
     </div>
   </main>
