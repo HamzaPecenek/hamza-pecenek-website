@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projects - Ali Hamza Peçenek</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -14,7 +15,7 @@
         <a href="index.html">Home</a>
         <a href="education.html">Education</a>
         <a href="skills.html">Skills</a>
-        <a href="projects.html">Projects</a>
+        <a href="projects.html" class="active">Projects</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
@@ -24,9 +25,9 @@
   <main>
     <div class="container">
       <aside class="sidebar">
-        <img src="Assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
+        <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
         <h2>Ali Hamza Peçenek</h2>
-        <a href="assets/cv.pdf" download>📄 Download CV</a>
+        <a href="assets/cv.pdf" download class="download-btn">📄 Download CV</a>
         <div class="social-links">
           <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a>
           <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">LinkedIn</a>
@@ -34,30 +35,47 @@
       </aside>
 
       <section class="main-content">
-        
-        <h1>Projects</h1>
+        <h1>Highlighted Projects</h1>
 
-          <div class="project-card">
-            <h2>Text-based Game with ML</h2>
-            <p class="project-date">April 2025 – July 2025</p>
-            <ul>
-              <li>Created a machine-learning-enhanced text game using Python and scikit-learn.</li>
-              <li>Built adaptive gameplay based on player behavior.</li>
-              <li>Used data preprocessing and model evaluation to improve AI decision-making.</li>
-            </ul>
-          </div>
+        <div class="project-card">
+          <h2>Text-based Game with ML <span class="in-progress">(in progress)</span></h2>
+          <p class="project-date">April 2025 – Present</p>
+          <p class="project-tags">Python · scikit-learn · Game AI · Data Science</p>
+          <ul>
+            <li>Building a machine-learning-enhanced text game with adaptive narrative paths.</li>
+            <li>Using data preprocessing and evaluation to optimize in-game AI logic.</li>
+            <li>Focusing on replayability and player personalization.</li>
+          </ul>
+          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
+        </div>
 
-          <div class="project-card">
-            <h2>School Feedback Website <span class="in-progress">(in progress)</span></h2>
-            <p class="project-date">July 2025 – Present</p>
-            <ul>
-              <li>Developing a full-stack app using React and Firebase.</li>
-              <li>Features real-time student feedback on classes and professors.</li>
-              <li>Focus on clean UI, authentication, and cloud deployment.</li>
-            </ul>
-          </div>
-        </section>
+        <div class="project-card">
+          <h2>School Feedback Website <span class="in-progress">(in progress)</span></h2>
+          <p class="project-date">July 2025 – Present</p>
+          <p class="project-tags">React · Firebase · Full-Stack · UX</p>
+          <ul>
+            <li>Developing a student-driven platform for anonymous class feedback.</li>
+            <li>Real-time updates using Firebase Firestore and Authentication.</li>
+            <li>Focus on usability, cloud security, and clean responsive UI.</li>
+          </ul>
+          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
+        </div>
+
+        <div class="project-card">
+          <h2>Personal Portfolio Website</h2>
+          <p class="project-date">May 2025 – August 2025</p>
+          <p class="project-tags">HTML · CSS · JavaScript · Deployment</p>
+          <ul>
+            <li>Designed and built a personal web-CV for showcasing education, skills, and projects.</li>
+            <li>Ensured responsiveness, accessibility, and fast performance.</li>
+            <li>Integrated download links and external profile connections.</li>
+          </ul>
+          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
+        </div>
+
+      </section>
     </div>
   </main>
 </body>
 </html>
+
