@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #fff;
+}
+
+/* Navbar layout with spacing */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  gap: 250px; /* gap between name and nav group */
+}
+
+.navbar .name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 90px;
+  white-space: nowrap;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 30px; /* spacing between nav items */
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* Banner image */
+.banner {
+  height: 280px;
+  background: url('Assets/background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.main-content {
+  padding-top: 2rem;
+}
+
+/* Layout container */
+main {
+  padding-bottom: 120px;
+  margin-top: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto 0 auto;  /* 👈 adds top margin to separate from banner */
+  padding: 0 1.5rem;
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 0 0 250px;
+  padding-right: 2rem;
+}
+
+.sidebar .profile-pic {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem; /* 👈 shifts the name slightly left */
+
+}
+
+.sidebar p,
+.sidebar a {
+  margin-bottom: 0.8rem;
+  display: block;
+  color: #333;
+}
+
+.sidebar .social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #0066cc;
+}
+
+.sidebar .social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 120px; /* or margin-bottom */
+}
+
+.main-content h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.main-content p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  border-left: 4px solid #444;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.project-date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.in-progress {
+  font-size: 0.9rem;
+  color: #c0392b;
+  font-weight: 600;
+}
+
+.project-card ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  margin-top: 0.5rem;
+}
