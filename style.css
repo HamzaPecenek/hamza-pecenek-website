@@ -158,3 +158,179 @@ main {
   list-style-type: disc;
   margin-top: 0.5rem;
 }
+
+
+.project-tags {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.download-btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.download-btn:hover {
+  background-color: #005fa3;
+}
+
+.navbar nav a.active {
+  font-weight: bold;
+  color: #0077cc;
+}
+
+
+.edu-card {
+  border-left: 4px solid #2c3e50;
+  background-color: #f9f9f9;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edu-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  color: #2c3e50;
+}
+
+.edu-card .project-date {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.2rem;
+}
+
+.edu-detail {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.edu-card ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.skill-block {
+  margin-bottom: 2rem;
+}
+
+.skill-block h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background-color: #eaf3ff;
+  color: #0077cc;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  white-space: nowrap;
+}
+
+.contact-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0077cc;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.contact-card a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #2c3e50;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+.intro {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.cv-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.cv-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
