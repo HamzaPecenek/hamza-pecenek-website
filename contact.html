@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact - Ali Hamza Peçenek</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -15,7 +16,7 @@
         <a href="education.html">Education</a>
         <a href="skills.html">Skills</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
       </nav>
     </div>
     <div class="banner"></div>
@@ -24,12 +25,9 @@
   <main>
     <div class="container">
       <aside class="sidebar">
-        <img src="Assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
+        <img src="assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
         <h2>Ali Hamza Peçenek</h2>
-        <a href="assets/cv.pdf" download>📄 Download CV</a>
-        <!--<p><strong>Email:</strong><br>hamza.petschenek@gmail.com</p>
-        <p><strong>Phone:</strong><br>+90 551 177 6168</p>
-        <p><strong>Location:</strong><br>Istanbul, Turkey</p>-->
+        <a href="assets/cv.pdf" download class="download-btn">📄 Download CV</a>
         <div class="social-links">
           <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a>
           <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">LinkedIn</a>
@@ -37,14 +35,27 @@
       </aside>
 
       <section class="main-content">
-        <h1>Contact</h1>
-        <p><strong>Email:</strong> hamza.petschenek@gmail.com</p>
-        <p><strong>Phone:</strong> +90 551 177 6168</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">Visit Profile</a></p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/HamzaPecenek" target="_blank">HamzaPecenek</a></p>
-        <p><strong>Location:</strong> Istanbul, Turkey</p>
+        <h1>Contact Me</h1>
+        <div class="contact-card">
+          <p><strong>📧 Email:</strong> <a href="mailto:hamza.petschenek@gmail.com">hamza.petschenek@gmail.com</a></p>
+          <p><strong>📱 Phone:</strong> <a href="tel:+905511776168">+90 551 177 6168</a></p>
+          <p><strong>🔗 LinkedIn:</strong> <a href="https://www.linkedin.com/in/ali-hamza-peçenek" target="_blank">Visit Profile</a></p>
+          <p><strong>💻 GitHub:</strong> <a href="https://github.com/HamzaPecenek" target="_blank">HamzaPecenek</a></p>
+          <p><strong>📍 Location:</strong> Istanbul, Turkey</p>
+        </div>
+
+        <!-- Optional contact form placeholder
+        <form class="contact-form">
+          <h2>Send a Message</h2>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        -->
       </section>
     </div>
   </main>
 </body>
 </html>
+
