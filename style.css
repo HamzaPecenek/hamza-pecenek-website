@@ -335,3 +335,125 @@ main {
   color: #2c3e50;
 }
 
+/* Make layout stack vertically on small screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navbar .name {
+    margin-right: 0;
+  }
+
+  .navbar nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .banner {
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  iframe {
+    height: 400px; /* scale PDF on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .main-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .sidebar h2 {
+    font-size: 1.1rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .sidebar .profile-pic {
+    width: 60%;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+}
+
+/* Mobile navbar styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navbar nav.nav-open {
+    display: flex;
+  }
+
+  .navbar nav a {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+/* Hide hamburger menu by default (desktop) */
+.menu-toggle {
+  display: none;
+}
+
+/* Show hamburger only on mobile */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #333;
+    margin-left: auto;
+  }
+}
+
+
