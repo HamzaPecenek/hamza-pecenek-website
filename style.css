@@ -18,7 +18,7 @@ body {
   background-color: #f8f8f8;
   padding: 1rem 2rem;
   border-bottom: 1px solid #ddd;
-  gap: 250px; /* gap between name and nav group */
+  gap: 33px; /* gap between name and nav group */
 }
 
 .navbar .name {
