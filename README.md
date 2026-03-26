@@ -1,10 +1,14 @@
 # Personal Website – Ali Hamza Peçenek
 
-This is my personal portfolio website built with HTML, CSS, and a bit of JavaScript.
+Updated personal portfolio website built with HTML, CSS, and JavaScript.
 
-📄 View Live: [hamzapecenek.github.io/hamza-pecenek-website](https://hamzapecenek.github.io/hamza-pecenek-website/)
+## What changed
+- Rewritten content based on the latest CV
+- Stronger emphasis on machine learning, data analysis, NLP, and internships
+- Updated projects, experience, certifications, and competition results
+- Light visual refresh while keeping the same multi-page structure
 
-## 📌 Sections
+## Pages
 - Home
 - Education
 - Skills
@@ -13,11 +17,8 @@ This is my personal portfolio website built with HTML, CSS, and a bit of JavaScr
 - Certifications
 - Contact
 
-## 💡 Future Plans
-- Convert to a Django-based dynamic site
-- Add admin login and personal blog
-- Make content editable through a backend
+## Notes
+- Keep your existing `Assets/profile.jpg` and `Assets/background.jpg`
+- Replace `Assets/cv.pdf` with the latest CV when needed
 
----
-
-Built and maintained by [Ali Hamza Peçenek](https://www.linkedin.com/in/ali-hamza-pe%C3%A7enek-04318a369/)
+Built and maintained by Ali Hamza Peçenek.

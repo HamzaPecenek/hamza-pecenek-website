@@ -6,20 +6,20 @@
   <title>Projects - Ali Hamza Peçenek</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="script.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="navbar">
       <div class="name">Ali Hamza Peçenek</div>
       <nav>
-        <a href="index.html">Home</a>
-        <a href="education.html">Education</a>
-        <a href="skills.html">Skills</a>
+        <a href="index.html" class="">Home</a>
+        <a href="education.html" class="">Education</a>
+        <a href="skills.html" class="">Skills</a>
         <a href="projects.html" class="active">Projects</a>
-        <a href="experience.html">Experience</a>
-        <a href="certifications.html">Certifications</a>
-        <a href="contact.html">Contact</a>
+        <a href="experience.html" class="">Experience</a>
+        <a href="certifications.html" class="">Certifications</a>
+        <a href="contact.html" class="">Contact</a>
       </nav>
     </div>
     <div class="banner"></div>
@@ -30,55 +30,88 @@
       <aside class="sidebar">
         <img src="Assets/profile.jpg" alt="Profile Photo" class="profile-pic" />
         <h2>Ali Hamza Peçenek</h2>
+        <p class="sidebar-role">Computer Engineering Student · ML / Data / AI</p>
         <a href="Assets/cv.pdf" download class="download-btn">📄 Download CV</a>
+
+        <div class="sidebar-mini">
+          <p><strong>Location:</strong><br>Istanbul, Turkey</p>
+          <p><strong>Email:</strong> hamza.petschenek@gmail.com</p>
+        </div>
+
         <div class="social-links">
-          <a href="https://github.com/HamzaPecenek" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/ali-hamza-pe%C3%A7enek-04318a369/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/HamzaPecenek" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/ali-hamza-pe%C3%A7enek-04318a369/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </aside>
 
       <section class="main-content">
-        <h1>Highlighted Projects</h1>
+
+        <h1>Projects</h1>
 
         <div class="project-card">
-          <h2>Text-based Game with ML <span class="in-progress">(in progress)</span></h2>
-          <p class="project-date">April 2025 – Present</p>
-          <p class="project-tags">Python · scikit-learn · Game AI · Data Science</p>
+          <h2>Semantic Book Recommendation System</h2>
+          <p class="project-date">March 2026</p>
+          <p class="project-tags">Python · NLP · LLMs · LangChain · Chroma · Hugging Face</p>
           <ul>
-            <li>Building a machine-learning-enhanced text game with adaptive narrative paths.</li>
-            <li>Using data preprocessing and evaluation to optimize in-game AI logic.</li>
-            <li>Focusing on replayability and player personalization.</li>
+            <li>Developed an end-to-end NLP-based recommendation system for personalized book suggestions.</li>
+            <li>Processed and engineered a dataset of around 7,000 books to improve recommendation relevance.</li>
+            <li>Built embeddings and vector similarity search pipelines using LangChain and Chroma.</li>
+            <li>Applied zero-shot classification for dynamic filtering and category-aware recommendations.</li>
+            <li>Deployed the workflow in a real book club setting for automated weekly book selection.</li>
           </ul>
-          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
         </div>
 
         <div class="project-card">
-          <h2>School Feedback Website <span class="in-progress">(in progress)</span></h2>
-          <p class="project-date">July 2025 – Present</p>
-          <p class="project-tags">React · Firebase · Full-Stack · UX</p>
+          <h2>2D Platformer Game</h2>
+          <p class="project-date">October 2025 – January 2026</p>
+          <p class="project-tags">Godot 4.5.1 · Game Development · Scrum · Software Engineering</p>
           <ul>
-            <li>Developing a student-driven platform for anonymous class feedback.</li>
-            <li>Real-time updates using Firebase Firestore and Authentication.</li>
-            <li>Focus on usability, cloud security, and clean responsive UI.</li>
+            <li>Developed a 2D platformer game as part of a software engineering project.</li>
+            <li>Implemented gameplay systems, physics interactions, and character controls.</li>
+            <li>Served as Scrum Master and coordinated iterative Agile development cycles.</li>
           </ul>
-          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
         </div>
 
         <div class="project-card">
           <h2>Personal Portfolio Website</h2>
-          <p class="project-date">May 2025 – August 2025</p>
-          <p class="project-tags">HTML · CSS · JavaScript · Deployment</p>
+          <p class="project-date">July 2025 – August 2025</p>
+          <p class="project-tags">HTML · CSS · JavaScript · Accessibility · Performance</p>
           <ul>
-            <li>Designed and built a personal web-CV for showcasing education, skills, and projects.</li>
-            <li>Ensured responsiveness, accessibility, and fast performance.</li>
-            <li>Integrated download links and external profile connections.</li>
+            <li>Designed and deployed a personal website to present projects, experience, and technical strengths.</li>
+            <li>Improved accessibility, cross-browser compatibility, and overall performance.</li>
+            <li>Planning future backend integration with Django for dynamic content and blog features.</li>
           </ul>
-          <a href="https://github.com/HamzaPecenek" target="_blank" class="project-link">🔗 GitHub Repository</a>
+          <a href="https://github.com/HamzaPecenek" target="_blank" rel="noopener" class="project-link">🔗 GitHub Profile</a>
         </div>
+
+        <div class="project-card">
+          <h2>ML-Enhanced Text Game <span class="in-progress">(on hold)</span></h2>
+          <p class="project-date">July 2025 – On Hold</p>
+          <p class="project-tags">Python · Machine Learning · Narrative Systems · Personalization</p>
+          <ul>
+            <li>Designed an interactive narrative game with machine learning-driven branching storylines.</li>
+            <li>Built data preprocessing and model evaluation ideas to support adaptive story behavior.</li>
+            <li>Focused on personalization and replayability to improve player experience.</li>
+          </ul>
+        </div>
+
+        <section class="content-section">
+          <div class="section-heading">
+            <h2>Competitions & Achievements</h2>
+          </div>
+
+          <div class="achievement-grid">
+            <div class="info-card"><strong>Kaggle Heart Disease</strong><p>Ranked Top 4%</p></div>
+            <div class="info-card"><strong>Kaggle Student Test Scores</strong><p>Ranked Top 5%</p></div>
+            <div class="info-card"><strong>Kaggle Loan Payback</strong><p>Ranked Top 9%</p></div>
+            <div class="info-card"><strong>BTK Academia Datathon 2025</strong><p>Ranked 174 / 571</p></div>
+            <div class="info-card"><strong>ING Hubs Datathon 2025</strong><p>Ranked 177 / 659</p></div>
+            <div class="info-card"><strong>Kaggle March ML Mania 2026</strong><p>Active participant</p></div>
+          </div>
+        </section>
 
       </section>
     </div>
   </main>
 </body>
 </html>
-

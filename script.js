@@ -1,22 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.querySelector(".navbar");
+  if (!navbar) return;
 
-  if (navbar) {
-    // Create hamburger button
+  const existingToggle = navbar.querySelector(".menu-toggle");
+  if (!existingToggle) {
     const toggleBtn = document.createElement("button");
     toggleBtn.className = "menu-toggle";
+    toggleBtn.setAttribute("aria-label", "Toggle navigation");
+    toggleBtn.setAttribute("aria-expanded", "false");
     toggleBtn.innerHTML = "☰";
 
-    // Insert button after the .name div
     const nameDiv = navbar.querySelector(".name");
     if (nameDiv) {
       nameDiv.insertAdjacentElement("afterend", toggleBtn);
     }
 
-    // Toggle nav open/close
     const nav = navbar.querySelector("nav");
-    toggleBtn.addEventListener("click", () => {
-      nav.classList.toggle("nav-open");
-    });
+    if (nav) {
+      toggleBtn.addEventListener("click", () => {
+        const isOpen = nav.classList.toggle("nav-open");
+        toggleBtn.setAttribute("aria-expanded", String(isOpen));
+      });
+    }
   }
 });
